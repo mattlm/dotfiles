@@ -1,0 +1,7 @@
+alias j='jobs'
+# alias g='grep --color=auto -riIn'
+alias g='grep --color=always -riIn 2>/dev/null'
+alias gs='clear && git status'
+alias gd='clear && git diff'
+alias ga='git add'
+alias gc='git commit'
