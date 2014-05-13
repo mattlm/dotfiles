@@ -62,7 +62,9 @@ syntax on
 " 256 color term
 set t_Co=256
 
-colorscheme molokai
+if filereadable(expand("~/.vim/bundle/molokai/colors/molokai.vim"))
+  colorscheme molokai
+endif
 
 " show line numbers
 set number
