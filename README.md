@@ -3,6 +3,11 @@ dotfiles
 
     $ git clone git@github.com:mattlm/dotfiles.git ~/.dotfiles
 
+## setup
+
+    $ ln -s .dotfiles/.gitconfig ~/
+    $ ln -s .dotfiles/.bash_aliases ~/
+
 ## vimrc setup
 
     $ ln -s .dotfiles/.vimrc ~/
