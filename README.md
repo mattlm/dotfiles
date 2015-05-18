@@ -11,7 +11,7 @@ dotfiles
 ## vimrc setup
 
     $ ln -s .dotfiles/.vimrc ~/
-    $ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    $ git clone git@github.com:gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
     $ vim +PluginInstall +qall
 
 ## todo
