@@ -124,3 +124,7 @@ set ttyfast
 
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
+
+" http://vim.wikia.com/wiki/Great_wildmode/wildmenu_and_console_mouse
+set wildmenu
+set wildmode=list:longest,full
