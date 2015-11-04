@@ -128,3 +128,7 @@ cmap w!! w !sudo tee > /dev/null %
 " http://vim.wikia.com/wiki/Great_wildmode/wildmenu_and_console_mouse
 set wildmenu
 set wildmode=list:longest,full
+
+" keeps me from fat-fingering :x and :q
+map :X :x
+map :Q :q
