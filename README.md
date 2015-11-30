@@ -16,3 +16,4 @@ dotfiles
 
 ## todo
 * add script to do symlinks
+* https://github.com/ntpeters/vim-better-whitespace
