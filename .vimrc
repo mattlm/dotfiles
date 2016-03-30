@@ -76,7 +76,7 @@ if filereadable(expand("~/.vim/bundle/molokai/colors/molokai.vim"))
 endif
 
 " show line numbers
-set number
+"set number
 
 " Show matching brace
 set showmatch
