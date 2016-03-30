@@ -9,3 +9,6 @@ alias gb='git branch -a -v'
 alias cl='clear && ls -l'
 # http://stackoverflow.com/a/927386/1871400
 alias gcu='git reset --soft HEAD~1'
+
+alias be='bundle exec'
+alias ag='ag 2>/dev/null'
