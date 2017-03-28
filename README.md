@@ -19,6 +19,8 @@ dotfiles
 https://github.com/so-fancy/diff-so-fancy
 
     $ brew install diff-so-fancy
+    OR
+    $ npm install -g diff-so-fancy
 
     edit .gitconfig, uncomment the pager line
 
