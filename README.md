@@ -16,7 +16,7 @@ dotfiles
 
 ## git diff-so-fancy setup
 
-    [https://github.com/so-fancy/diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+https://github.com/so-fancy/diff-so-fancy
 
     $ brew install diff-so-fancy
 
