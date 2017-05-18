@@ -140,3 +140,9 @@ if executable('ag')
   " Use ag in CtrlP for listing files. Lightning fast and respects .gitignore
   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
 endif
+
+" auto complete {} indent and position the cursor in the middle line
+" https://github.com/wavded/dotfiles/blob/master/vimrc
+inoremap {<CR>  {<CR>}<Esc>O
+inoremap (<CR>  (<CR>)<Esc>O
+inoremap [<CR>  [<CR>]<Esc>O
