@@ -51,6 +51,9 @@ Plugin 'tomasr/molokai'
 " non github repos
 Plugin 'git://git.wincent.com/command-t.git'
 
+" react/jsx
+Plugin 'mxw/vim-jsx'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 
